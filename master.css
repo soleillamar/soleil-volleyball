@@ -48,6 +48,15 @@ body {
   width: 50%;
 }
 
+.column.middle img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#S {
+  color: purple;
+  font-weight: bold;
+}
 .row:after {
   content:"";
   display: table;
