@@ -8,11 +8,15 @@
   margin: 0;
 }
 
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+}
 .header {
   background-color: slateblue;
   padding: 20px;
   text-align: center;
   color: white;
+  font-family: Georgia;
 }
 
 .topnav {
@@ -49,12 +53,15 @@
   width: 50%;
 }
 
-.column.middle.images{
-  width: 100%;
+.column.middle div {
+  border-style: double;
+  border-color: cornflowerblue;
 }
 
-#S {
-  color: purple;
+}
+
+.column.middle a{
+  color: cornflowerblue;
   font-weight: bold;
 }
 .row:after {
