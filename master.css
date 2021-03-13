@@ -53,11 +53,16 @@ body {
   width: 50%;
 }
 
-.column.middle div {
+.column.middle div img {
   border-style: double;
   border-color: cornflowerblue;
 }
+.column.middle div.images{
+  margin-left: 100px;
+}
 
+.column.middle div.ytVideo{
+  margin: 50px;
 }
 
 .column.middle a{
