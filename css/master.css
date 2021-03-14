@@ -92,7 +92,7 @@ footer p {
 }
 
 @media screen and (max-width: 600px;) {
-  .column.side .column.middle {
+  .column.side, .column.middle {
     width: 100%;
   }
 }
